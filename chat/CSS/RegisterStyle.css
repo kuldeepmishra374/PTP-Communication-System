@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+   
+   /*background: #2E3740;
+    color: #435160;
+    font-family: "Open Sans", sans-serif;*/
+    padding: 10px 0px;
+    background: url(../Files/f3.png) no-repeat center center fixed ;
+    background-size:cover;
+}
+
+h2
+{
+    color: #6D7781;
+    font-family: "Sofia", cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 3.6em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.login {
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    margin-left: -175px;
+}
+
+input[type="text"], input[type="password"],input[type="tel"] {
+    width: 350px;
+    padding: 20px 0px;
+    background: transparent;
+    border: 0;
+    border-radius: 20px;
+    border-bottom: 2px solid #435160;
+    outline: none;
+    color: #6D7781;
+    font-size: 16px;
+    font-size: 1.2em;
+}
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+    display: block;
+    position: absolute;
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 3px solid #435160;
+}
+
+#agree:checked ~ label[for=agree] {
+    background: #435160;
+}
+
+input[type="submit"] {
+    background: #1FCE6D;
+    border: 0;
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+    background: #16aa56;
+    animation-name: shake;
+}
+
+.forgot {
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+}
+.forgot:hover {
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    color: #6D7781;
+}
+
+.agree {
+    padding: 30px 0px;
+    font-size: 12px;
+    text-indent: 25px;
+    line-height: 15px;
+}
+
+::-webkit-input-placeholder {
+    color: #435160;
+    font-size: 12px;
+}
+
+.animated {
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
+}
+#Exit1
+{
+    position:relative;
+    font-family: Calibri, cursive;
+   // color: #14396A !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    padding: 8px 25px;
+    top: 15%;
+    left: 80%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 20px;
+    border: 2px solid #3866A3;
+    background: #1FCE6D;
+    color: #fff;
+    cursor: pointer; 
+    transition: background 0.3s ease-in-out;
+ 
+  /*  background: linear-gradient(top,  #63B8EE,  #468CCF);
+    background: -ms-linear-gradient(top,  #63B8EE,  #468CCF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#468CCF));
+    background: -moz-linear-gradient(top,  #63B8EE,  #468CCF);*/
+
+}
+
+#Exit1:hover
+{
+    background: #1FCE6D;
+    //color: #ccc;
+    animation-name: shake;
+}
+

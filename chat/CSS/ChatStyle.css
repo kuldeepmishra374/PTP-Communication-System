@@ -1,0 +1,140 @@
+body
+{
+    background: #2E3740;
+    color: #435160;
+    background: url(../Files/f3.png) no-repeat center center fixed ;
+    background-size:cover;
+    font-family: "Open Sans", sans-serif;
+}
+
+html, body
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#radio
+{
+    position:relative;
+    height: 80%;
+    width: 80%;
+    left:1000px;
+    top:90px;
+
+}
+
+#ChatMessages, #ChatText
+{
+    position:absolute;
+    left:0;
+    right:0;
+    border:1px solid #000;
+}
+
+#ChatBox
+{
+    /*background: url(../Files/ff.jpg) no-repeat center center fixed ;*/
+    background-size:cover;
+    position:relative;
+    top:120px;
+    height: 250px;
+}
+
+#ChatMessages
+{
+    overflow:auto;
+    top:0;
+    bottom:3em;
+    word-wrap:break-word;
+}
+
+#ChatText
+{
+    display:block;
+    bottom:0;
+    height:2em;
+    padding:.5em;
+    margin-top:2em;
+    width: 300px;
+    border-radius:20px;
+    resize: horizontal;
+    background: cover;
+}
+
+#ChatText > p
+{
+    
+    margin:0;
+}
+
+
+.UserNameS
+{
+    color: cyan;
+    font-size: large;
+}
+
+.ChatMessageS
+{
+    color: lightcoral;
+}
+
+.UserNameS.hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1
+{
+    color: #2589d5;
+    font-family: "Segoe UI", cursive;
+    font-weight: 100;
+    font-size: 3.0em;
+    opacity: 0.8;
+    text-wrap: none;
+    position: relative;
+    top: 0%;
+    left: 17%;
+    margin-left: -200px;
+}
+
+#radio
+{
+    color: darkgrey;
+}
+
+#ChatTypeLabel
+{
+    color: #1FCE6D;
+}
+
+#Exit
+{
+    position:relative;
+    font-family: Calibri, cursive;
+    color: #14396A !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    padding: 8px 25px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 20px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: #1FCE6D;
+    left:1100px;
+    top:-400px;
+    background: linear-gradient(top,  #63B8EE,  #468CCF);
+    background: -ms-linear-gradient(top,  #63B8EE,  #468CCF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#468CCF));
+    background: -moz-linear-gradient(top,  #63B8EE,  #468CCF);
+
+}
+
+#Exit:hover
+{
+    background: brown;
+    color: #ccc;
+    cursor: pointer;
+}

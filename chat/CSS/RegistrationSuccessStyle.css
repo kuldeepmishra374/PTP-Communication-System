@@ -1,0 +1,20 @@
+#label
+{
+    color: #1FCE6D;
+    font-family: "Sofia", cursive;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 37%;
+    margin-right: 300px;
+}
+
+
+body
+{
+    background: #2E3740;
+    color: #435160;
+    font-family: "Open Sans", sans-serif;
+}
